@@ -26,12 +26,12 @@
 <meta property="og:site_name" content="xinyi&#39;s blog">
 <meta property="og:description" content="C语言问题记录最近小学期做C语言实训作业然后要完成一个编程大奖赛现场统分 编写好程序以后点击运行，输入时候不小心输入错误本来正常是输入5的不小心输入成5.了后面有个小数点然后就导致程序一直无限循环一直输入出一句话然后后来查了一下发现是scanf的缓存没有清除  使用getchar就可以去除这个问题，但是后来发现getchar也会出现问题就换成检查输入的编号是不是只有数字字符，是不是还有小数点如果有">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/.com//e6t14oZIQa7gbKc.png">
+<meta property="og:image" content="http://example.com/.com//e6t14oZIQa7gbKc-1735542454937-1.png">
 <meta property="article:published_time" content="2024-12-29T04:43:33.000Z">
-<meta property="article:modified_time" content="2024-12-30T07:02:57.371Z">
+<meta property="article:modified_time" content="2024-12-30T07:07:38.711Z">
 <meta property="article:author" content="xinyi">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/.com//e6t14oZIQa7gbKc.png">
+<meta name="twitter:image" content="http://example.com/.com//e6t14oZIQa7gbKc-1735542454937-1.png">
   
   
   
@@ -279,7 +279,7 @@
                 
                 <h1 id="C语言"><a href="#C语言" class="headerlink" title="C语言"></a>C语言</h1><h2 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h2><p>最近小学期做C语言实训作业然后要完成一个编程<code>大奖赛现场统分</code></p>
 <p>编写好程序以后点击运行，输入时候不小心输入错误本来正常是输入5的不小心输入成5.了后面有个小数点然后就导致程序一直无限循环一直输入出一句话然后后来查了一下发现是scanf的缓存没有清除</p>
-<p><img src="/.com//e6t14oZIQa7gbKc.png" srcset="/img/loading.gif" lazyload alt="image-20241229124628245.png"></p>
+<p><a href="https://sm.ms/image/e6t14oZIQa7gbKc" target="_blank"><img src="/.com//e6t14oZIQa7gbKc-1735542454937-1.png" srcset="/img/loading.gif" lazyload alt="image-20241229124628245.png"></a></p>
 <p>使用getchar就可以去除这个问题，但是后来发现getchar也会出现问题就换成检查输入的编号是不是只有数字字符，是不是还有小数点如果有的话就提示不可以<code>if (sscanf(input, &quot;%d&quot;, &amp;id) == 1 &amp;&amp; strchr(input, &#39;.&#39;) == NULL)</code></p>
 
                 
